@@ -1,25 +1,21 @@
 __author__ = 'lavee_singh'
 
 from bs4 import BeautifulSoup
-import urllib2
-import os
-import ctypes
+import urllib2, os, ctypes
 
-def Clear(links):
-    i = 0
-    while i < len(links):
-        if '/html' not in links[i] and ('.htm' not in links[i] or '.pdf' not in links[i]):
-            del links[i]
-        else: i += 1
-    return
-
+# This function is force glibc to read /etc/resolv.conf again
 libc = ctypes.cdll.LoadLibrary('libc.so.6')
-res_init = libc.__res_init # This function is force glibc to read /etc/resolv.conf again
+res_init = libc.__res_init
 
+# Where do you want to save the downloaded files
 os.chdir(raw_input("Enter the path of the directory where you want to save the files: "))
 res_init()
+
+# Give the url of index page, however, you can give the url of any link from the page you want.
 url = raw_input("Enter the url : ")
 print "Fetching html...."
+
+# Fetch the html to store in htm
 htm = urllib2.urlopen(url).read()
 print "Creating Soup...."
 soup = BeautifulSoup(htm, "lxml")
@@ -28,11 +24,14 @@ print "Finding all the links....",
 for link in soup.find_all('a'):
     links.append(link.get('href')) # links will be appended in /html/blah/blah.blah
                                    # And I've to convert the links into http://www.tutorialspoint.com/html/.......
-Clear(links) # To Eliminate extra links from the list
+
 toadd = 'http://www.tutorialspoint.com'
 print "Modifying links...."
 for i in xrange(len(links)):
     links[i] = toadd + links[i]
+
+#
+print links
 
 print "Starting the traversal of all the links...."
 for i in xrange(len(links)):
