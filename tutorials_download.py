@@ -30,9 +30,6 @@ print "Modifying links...."
 for i in xrange(len(links)):
     links[i] = toadd + links[i]
 
-#
-print links
-
 print "Starting the traversal of all the links...."
 for i in xrange(len(links)):
     if '.pdf' in links[i]:
