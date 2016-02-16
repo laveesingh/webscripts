@@ -2,6 +2,11 @@
 
 from selenium import webdriver
 import time
+from pyvirtualdisplay import Display
+
+display = Display(visible=0, size=(800, 500))
+display.start()
+
 browser = webdriver.Chrome()
 time.sleep(1)
 url = "http://172.16.166.10"
@@ -25,4 +30,4 @@ time.sleep(3)
 
 browser.close() # Remove this line, if you don't want browser to get closed after login process.
 
-
+display.stop()
