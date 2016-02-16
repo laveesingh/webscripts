@@ -12,7 +12,7 @@
 
 
 <center><h1 style="color:maroon;font-size:2.5em">WEBSCRIPTS</h1></center>
-<h2> Here I will put various kind of scripts that automate and ease the task of internet queries. </h2>
+<h2>Here I will put various kind of scripts that automate and ease the task of internet queries. </h2>
 <ul>
 	<li>
 		<h3 style="color:blue;font-size:2em;">Extract_Urls</h3>
