@@ -19,7 +19,7 @@ lelement = browser.find_element_by_css_selector(".login2>input[type='image']")
 
 uelement.click()
 time.sleep(1)
-uelement.send_keys("14bcs027")  # Write your entry number instead of 14bcs027
+uelement.send_keys("entry no.")  # Write your entry number instead of 14bcs027
 time.sleep(1)
 pelement.click()
 time.sleep(1)
