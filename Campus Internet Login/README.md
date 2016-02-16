@@ -1,6 +1,6 @@
 <h1>Campus Internet Login</h1>
 <h2>Description: <h2>
-<h3>This script is designed for SMVDU students to automate their internet login process. We are logged out automatically if our internet connection is idle for a certain period of time, and this happens quite a lot with us. This Script is currently designed for linux users only, but soon (in a day or two) it will be available for windows as well as mac users. There may be any problem with someone using it, please tell me on facebook, so that I could improve it. </h3>
+<h4>This script is designed for SMVDU students to automate their internet login process. We are logged out automatically if our internet connection is idle for a certain period of time, and this happens quite a lot with us. This Script is currently designed for linux users only, but soon (in a day or two) it will be available for windows as well as mac users. There may be any problem with someone using it, please tell me on facebook, so that I could improve it. </h4>
 
 <h2>How should I use the script?</h2>
 
