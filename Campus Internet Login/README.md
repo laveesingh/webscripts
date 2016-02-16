@@ -5,6 +5,7 @@
 <h2>How should I use the script?</h2>
 
 Follow these steps to use the script:
+
 1. Download these two files namely, login.py and dependencies.sh. 
 2. Open file login.py in your favorite text editor and put your entry no. and password in line no. 22 and 26 respectively. Now save the file.
 3. Open file dependencies.sh in text editor and put your computer user_name instead of lavee_singh in line 13 and 15. Now save the file.
@@ -19,5 +20,6 @@ Follow these steps to use the script:
 6. Run the file by:
 		a. double clicking and and choosing run option.
 		b. running ```./login.py``` command in terminal
+
 
 <h2>Now, you might want to run this script automatically on startup or whenever you get automatically logged out, I'll be adding instructions for that in a day or two.</h2>
