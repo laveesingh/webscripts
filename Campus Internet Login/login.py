@@ -23,7 +23,7 @@ uelement.send_keys("14bcs027")  # Write your entry number instead of 14bcs027
 time.sleep(1)
 pelement.click()
 time.sleep(1)
-pelement.send_keys("L4vee0n1yiAB") # Write your password here instead of mine
+pelement.send_keys("password") # Write your password here instead of mine
 time.sleep(1)
 lelement.click()
 time.sleep(3)
