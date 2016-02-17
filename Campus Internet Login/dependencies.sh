@@ -1,5 +1,4 @@
 
-sudo su
 
 apt-get install -y python-pip
 
