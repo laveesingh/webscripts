@@ -21,7 +21,7 @@ Follow these steps to use the script:
 	```
 	sudo sh dependencies.sh
 	```
-5. Now you can set the script to run automatically. If you do so, you will automatically be logged into your internet account on startup of computer. But if you don't want so, you can login to your internet account anytime just by typing ```login.py``` in the terminal. And you can delete dependencies file now.
+5. Now you can set the script to run <a href="#automate-the-script">automatically</a>. If you do so, you will automatically be logged into your internet account on startup of computer. But if you don't want so, you can login to your internet account anytime just by typing ```login.py``` in the terminal. And you can delete dependencies file now.
 
 <!-- 5. Convert the login.py into executable by using:
 	```
