@@ -6,7 +6,7 @@
 
 Follow these steps to use the script:
 
-1. <a href="#Download-this-way">Download</a> these two files namely, login.py and dependencies.sh. 
+1. <a href="#download-this-way">Download</a> these two files namely, login.py and dependencies.sh. 
 2. Open file login.py in your favorite text editor and put your entry no. and password in line no. 22 and 26 respectively. Now save the file.
 3. Open file dependencies.sh in text editor and put your computer user_name instead of lavee_singh in line 13 and 15. Now save the file.
 4. Open terminal and run dependencies file using 
@@ -23,7 +23,7 @@ Follow these steps to use the script:
 
 
 <h2>Now, you might want to run this script automatically on startup or whenever you get automatically logged out, I'll be adding instructions for that in a day or two.</h2>
-<h3 > Download this way </h3>
+<h3 >Download this way</h3>
 This is the way to download individual files from gibhut.<br>This is the way to download individual files from gibhut.<br>
 This is the way to download individual files from gibhut.<br>
 This is the way to download individual files from gibhut.<br>
