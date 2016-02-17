@@ -1,4 +1,4 @@
-
+notify-send "Attention!" "This will take 2 minutes, please relax, and let it finish installing dependencies!!!"
 
 apt-get install -y python-pip
 
@@ -16,3 +16,6 @@ mv /home/lavee_singh/Downloads/chromedriver /usr/bin
 apt-get install -y xvfb
 
 pip install pyvirtualdisplay
+
+chmod a+x login.py
+mv login.py /usr/bin
