@@ -1,5 +1,13 @@
 <h1>Campus Internet Login</h1>
-<h2>Description: <h2>
+
+<ul>
+	<li><h3><a href="#description:">Description</a></h3></li>
+	<li><h3><a href="#how-should-i-use-the-script?">How to use it?</a></h3></li>
+	<li><h3><a href="#automate-the-script">Automatically run the script on startup</a></h3></li>
+</ul>
+
+
+<h2>Description:<h2>
 <h4>This script is designed for SMVDU students to automate their internet login process. We are logged out automatically if our internet connection is idle for a certain period of time, and this happens quite a lot with us. This Script is currently designed for linux users only, but soon (in a day or two) it will be available for windows as well as mac users. There may be any problem with someone using it, please tell me on facebook, so that I could improve it. </h4>
 
 <h2>How should I use the script?</h2>
@@ -22,11 +30,12 @@ Follow these steps to use the script:
 		b. running ```./login.py``` command in terminal
 
 
-<h2>Now, you might want to run this script automatically on startup or whenever you get automatically logged out, I'll be adding instructions for that in a day or two.</h2>
+<h2>Automate The Script</h2>
+
+
 <h3 >Download this way</h3>
-This is the way to download individual files from gibhut.<br>This is the way to download individual files from gibhut.<br>
-This is the way to download individual files from gibhut.<br>
-This is the way to download individual files from gibhut.<br>
-This is the way to download individual files from gibhut.<br>
-This is the way to download individual files from gibhut.<br>
-This is the way to download individual files from gibhut.<br>
+To download a file, follow these steps:
+
+1. Click on the file, this will open a new layout.
+2. Click on the ```raw``` button on right-upper corner of the editor division. This will open the file content in raw mode.
+3. Press ```ctrl+s``` to save/download the file.
