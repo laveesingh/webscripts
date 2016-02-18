@@ -14,8 +14,7 @@ unzip /home/lavee_singh/Downloads/chromedriver_linux64.zip
 mv /home/lavee_singh/Downloads/chromedriver /usr/bin
 
 apt-get install -y xvfb
+apt-get install -y wkhtmltopdf
 
 pip install pyvirtualdisplay
-
-chmod a+x login.py
-mv login.py /usr/bin
+pip install pdfkit
