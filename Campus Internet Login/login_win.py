@@ -19,12 +19,15 @@ lelement = browser.find_element_by_css_selector(".login2>input[type='image']")
 
 uelement.click()
 time.sleep(1)
-uelement.send_keys("14bcs027")  # Write your entry number instead of 14bcs027
+uelement.send_keys("")  # Write your entry number instead of 14bcs027
 time.sleep(1)
 pelement.click()
 time.sleep(1)
-pelement.send_keys("L4vee0n1yiAB") # Write your password here instead of mine
+pelement.send_keys("") # Write your password here instead of mine
 time.sleep(1)
+
+#iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')); choco install -y python python-pip wget unzip; pip install pyvirtualdisplay selenium; wget -nc http://chromedriver.storage.googleapis.com/2.9/chromedriver_win32.zip; unzip ~\Downloads\chromedriver.zip; mv ~\Downloads\chromedriver.exe C:\Python27\Scripts
+
 lelement.click()
 time.sleep(3)
 
