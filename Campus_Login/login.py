@@ -1,8 +1,16 @@
 #!/usr/bin/python
+from __future__ import print_function
+from sys import exit
 
-from selenium import webdriver
+try:
+	from selenium import webdriver
+	from pyvirtualdisplay import Display
+except ImportError:
+	print("\nError importing required modules\nPlease run dependencies.sh\n")
+	exit(-1)
+	
 import time
-from pyvirtualdisplay import Display
+
 
 display = Display(visible=0, size=(800, 500))
 display.start()
